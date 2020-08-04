@@ -9,7 +9,7 @@
 .header {
     background-color: #212121;
     padding: 1rem 2rem;
-    border-bottom: .3rem solid #757575;
+    border-bottom: .3rem solid #FFC107;
 }
 
 .menu {
@@ -52,7 +52,7 @@
 }
 
 .btn-2:hover, 
-.btn-2:visited {
+.btn-2:active {
     background-color: #FFFFFF;
     color: #212121;
     border: 0;
@@ -72,35 +72,36 @@
     transform: translate(-50%, -50%);
     width: 20rem;
     padding: .10rem;
-    border: .15rem ridge #FFC107;
+    border: .1rem ridge #212121;
+    border-radius: 0.5rem;
+    user-select: none;
 }
 
 .main_calculator-display {
     width: 100%;
     height: 6rem;
     margin-top: .07rem;
-    background-color: #212121;
+    background-color: #ffffff;
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 100;
-    color: #FFFFFF;
+    color: #212121;
     padding: 1.2rem 1rem 0 0;
+    border: .15rem solid #212121;
+    border-radius: 0.5rem 0.5rem 0 0;
     overflow: hidden;
 }
-
-/* .main_calculator-pad {
-    width: 100%
-} */
 
 .all-pads {
     width: 100%;
     border: 0;
     border-spacing: 0;
+    margin-top: .2rem;
 }
 
 td {
     width: 15%;
-    background-color: #FFC107;
+    background-color: #ffffff;
     height: 5rem;
     text-align: center;
     font-size: 1rem;
@@ -109,6 +110,8 @@ td {
 }
 
 td:hover {
+    /* background-color: #757575;
+    color: #ffffff; */
     font-size: 1.7rem;
 }
 
@@ -119,4 +122,12 @@ td:hover {
 
 .utility-special-pads:hover {
     font-size: 1.7rem;
+}
+
+.border-radius-0 {
+    border-bottom-left-radius: 0.5rem;
+}
+
+.border-radius-equals {
+    border-bottom-right-radius: 0.5rem;
 }

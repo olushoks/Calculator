@@ -4,12 +4,13 @@
     box-sizing: border-box;
     font-family: 'Saira Semi Condensed', sans-serif;
     font-weight: 200;
+    user-select: none;
 }
 
 .header {
     background-color: #212121;
     padding: 1rem 2rem;
-    border-bottom: .3rem solid #FFC107;
+    border-bottom: .3rem solid #757575;
 }
 
 .menu {
@@ -52,7 +53,7 @@
 }
 
 .btn-2:hover, 
-.btn-2:active {
+.btn-2:visited {
     background-color: #FFFFFF;
     color: #212121;
     border: 0;
@@ -62,7 +63,7 @@
 .main {
     position: relative;
     height: 80vh;
-    margin-bottom: 3rem;   
+    margin-bottom: 3rem;
 }
 
 .main_calculator {
@@ -73,12 +74,13 @@
     width: 20rem;
     padding: .10rem;
     border: .1rem ridge #212121;
+    border-radius: 0.5rem;
 }
 
 .main_calculator-display {
     width: 100%;
     height: 6rem;
-    margin-top: .07rem;
+    margin: .07rem 0 .07rem 0;
     background-color: #ffffff;
     text-align: right;
     font-size: 2.5rem;
@@ -86,23 +88,19 @@
     color: #212121;
     padding: 1.2rem 1rem 0 0;
     border: .15rem solid #212121;
+    border-radius: 0.5rem 0.5rem 0 0;
     overflow: hidden;
 }
-
-/* .main_calculator-pad {
-    width: 100%
-} */
 
 .all-pads {
     width: 100%;
     border: 0;
     border-spacing: 0;
-    margin-top: .2rem;
 }
 
 td {
     width: 15%;
-    background-color: #ffffff;
+    background-color: #FFC107;
     height: 5rem;
     text-align: center;
     font-size: 1rem;
@@ -111,8 +109,6 @@ td {
 }
 
 td:hover {
-    /* background-color: #757575;
-    color: #ffffff; */
     font-size: 1.7rem;
 }
 
@@ -122,7 +118,13 @@ td:hover {
 }
 
 .utility-special-pads:hover {
-    /* background-color: #ffffff;
-    color: #212121; */
     font-size: 1.7rem;
+}
+
+.border-radius-0 {
+    border-bottom-left-radius: 0.5rem;
+}
+
+.border-radius-equals {
+    border-bottom-right-radius: 0.5rem;
 }

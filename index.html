@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator</title>
-        <link rel="stylesheet" href="styles/theme1.css">
+        <link rel="stylesheet" href="./styles/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@500&display=swap" rel="stylesheet"> 
     </head>
     <body>
@@ -18,37 +18,37 @@
         </header>
         <main class='main'>
             <section class='main_calculator'>
-                <section class = 'main_calculator-display' id='display'></section>
+                <section class = 'main_calculator-display' id='display'>0</section>
                 <section class='main_calculator-pads'>
                     <table class='all-pads'>
                         <tr>
-                            <td class='utility-special-pads operator-pad' id='clear' data-btn='ac'>AC</td>
-                            <td class='utility-special-pads operator-pad' id='+/-' data-btn='plus-minus'>&plusmn;</td>
-                            <td class='utility-special-pads operator-pad' id='%' data-btn='percentage'>%</td>
-                            <td class='utility-special-pads operator-pad' id='÷' data-btn ='division'>÷</td>
+                            <td class='utility-special-pads'>AC</td>
+                            <td class='utility-special-pads'>&plusmn;</td>
+                            <td class='utility-special-pads'>%</td>
+                            <td class='utility-special-pads'>÷</td>
                         </tr>
                         <tr>
-                            <td class='number-pad' id='7' data-btn='7'>7</td>
-                            <td class='number-pad' id='8' data-btn='8'>8</td>
-                            <td class='number-pad' id='9' data-btn='9'>9</td>
-                            <td class='utility-special-pads operator-pad' id='x' data-btn='multiply'>x</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td class='utility-special-pads'>x</td>
                         </tr>
                         <tr>
-                            <td class='number-pad' id='4' data-btn='4'>4</td>
-                            <td class='number-pad' id='5' data-btn='5'>5</td>
-                            <td class='number-pad' id='6' data-btn='6'>6</td>
-                            <td class='utility-special-pads operator-pad' id='-' data-btn='subtract'>&minus;</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td class='utility-special-pads operator-pad'>&minus;</td>
                         </tr>
                         <tr>
-                            <td class='number-pad' id='1' data-btn='1'>1</td>
-                            <td class='number-pad' id='2' data-btn='2'>2</td>
-                            <td class='number-pad' id='3' data-btn='3'>3</td>
-                            <td class='utility-special-pads operator-pad' id='+' data-btn='addition'>+</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td class='utility-special-pads operator-pad'>+</td>
                         </tr>
                         <tr>
-                            <td class='number-pad' colspan="2" id='0'data-btn='0'>0</td>
-                            <td class='*number-pad*' id='decimal' data-btn='decimal'>.</td>
-                            <td  class='utility-special-pads *operator-pad*' id='=' data-btn='equals'>=</td>
+                            <td class='border-radius-0' colspan="2">0</td>
+                            <td>.</td>
+                            <td class='border-radius-equals'>=</td>
                         </tr>
                     </table>
                 </section>
